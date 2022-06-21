@@ -1,0 +1,67 @@
+/* Hola, en el figma se puede ver mejor la idea que medio que no pude terminar. No es que no llegué sino que no sabía como posicionar la imagen donde se ve en el Figma. También quería bajar los links hasta abajo y les agruegé lo de 100vh pero les puse 85vh y no pude. Por último me falta la parte superior dque dice "Portfolio" pero no pude agregar la línea seaparadora, entonces tampoco lo hice para no confundir. */
+
+@font-face{
+    font-family: Rubik;
+    src: url(../fuentes/Rubik-Regular.ttf);
+    font-weight: 300;
+}
+
+@font-face{
+    font-family: Rubik;
+    src: url(../fuentes/Rubik-SemiBold.ttf);
+    font-weight: 500;
+}
+
+body{
+    font-family: Rubik;
+    background-image: url(../img/trabajos-02.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: 50vw;
+}
+nav{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content:space-around
+}
+
+
+#intro1{
+    font-weight: 300;
+    font-size: 3.12em;
+}
+
+#intro2{
+    font-weight: 300;
+    font-size: 3.12em;
+}
+
+h1{
+    font-weight: 500;
+    color: #1044ff;
+    font-size: 3.75em;
+}
+
+h2{
+    font-weight: 300;
+    font-size: 2.18em;
+}
+
+p{
+    font-weight: 300;
+    font-size: 2.18em;
+}
+
+#parrafo{
+    font-weight: 500;
+}
+
+@media(max-width:768px){
+    body{
+        font-size: 80%;
+    }
+    nav{
+        flex-direction: row;
+    }
+}
